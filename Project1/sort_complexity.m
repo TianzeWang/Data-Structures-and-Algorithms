@@ -1,0 +1,12 @@
+clear all;clc;
+t0=[1 1 34 2744 72741 308764 8705506 34518575];
+t1=[0 0 11 880 18552 72484 1802895 7144271];
+t2=[0 0 20 1300 27256 107564 2661684 10326454];
+t3=[0 5 40 384 1706 3951 20023 39702];
+t4=[0 2 20 231 1085 2284 12562 25401];
+t5=[1 2 11 137 698 1404 8597 17499];
+size=[1 10 100 1000 5000 10000 50000 100000];
+semilogy(size,t0,'o-',size,t1,'v-',size,t2,'*-',size,t3,'>-',size,t4,'d-',size,t5,'^-');
+xlabel('array size');
+ylabel('speed');
+legend('bubble_sort','insertion_sort','selection_sort','merge_sort','quick_sort_extra','quick_sort_in_place');
