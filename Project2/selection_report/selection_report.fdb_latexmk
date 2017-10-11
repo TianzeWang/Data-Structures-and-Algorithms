@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1507566712 "selection_report.tex" "selection_report.pdf" "selection_report" 1507566713
+["pdflatex"] 1507705276 "selection_report.tex" "selection_report.pdf" "selection_report" 1507705277
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -63,12 +63,12 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1480770467 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1480770540 3873397 3546cc2415210eeb17c847bf6ab0856f ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "comparision.eps" 1507565228 21908 8bdc4d5814aa3ea83413c69a58d2d95f ""
-  "selection_report.aux" 1507566713 819 3f3b656404635dddea32101369a54f1a ""
-  "selection_report.tex" 1507566711 13763 f6fda66edfb172ef2d0e7a7e46e3ebc9 ""
-  "selection_report.toc" 1507566713 385 01a1446fa5f9c70063d6c47e50cea543 ""
+  "comparision.eps" 1507704958 22234 b44a887f0f07be659aa9673034a0bc30 ""
+  "selection_report.aux" 1507705277 819 7c8136e6d7ef4d26425dfdab573197db ""
+  "selection_report.tex" 1507705276 13592 8b050076833d656a06540cf2003171f6 ""
+  "selection_report.toc" 1507705277 385 ab63bf8a9609f53d4975fa4a35c36eb5 ""
   (generated)
-  "selection_report.pdf"
-  "selection_report.aux"
   "selection_report.log"
   "selection_report.toc"
+  "selection_report.aux"
+  "selection_report.pdf"

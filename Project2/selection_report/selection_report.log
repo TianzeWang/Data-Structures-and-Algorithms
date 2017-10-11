@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.3)  10 OCT 2017 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.3)  11 OCT 2017 15:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -283,11 +283,11 @@ ction_report.toc)
 
 [2]
 Package epstopdf Info: Source file: <comparision.eps>
-(epstopdf)                    date: 2017-10-10 00:07:08
-(epstopdf)                    size: 21908 bytes
+(epstopdf)                    date: 2017-10-11 14:55:58
+(epstopdf)                    size: 22234 bytes
 (epstopdf)             Output file: <comparision-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-10 00:10:57
-(epstopdf)                    size: 8576 bytes
+(epstopdf)                    date: 2017-10-11 14:59:30
+(epstopdf)                    size: 8594 bytes
 (epstopdf)             Command: <epstopdf --outfile=comparision-eps-converted-t
 o.pdf comparision.eps>
 (epstopdf)             \includegraphics on input line 125.
@@ -383,16 +383,16 @@ Missing character: There is no ‘ in font cmti10!
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [21]
 LaTeX Font Info:    Font shape `OMS/cmr/m/sl' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 625.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 627.
 [22] (./selection_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5180 strings out of 493014
- 70492 string characters out of 6133351
- 190001 words of memory out of 5000000
- 8657 multiletter control sequences out of 15000+600000
+ 5178 strings out of 493014
+ 70480 string characters out of 6133351
+ 190019 words of memory out of 5000000
+ 8655 multiletter control sequences out of 15000+600000
  7212 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,58p,630b,2065s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,58p,530b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
@@ -404,7 +404,7 @@ msfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsl10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti10.pfb>
-Output written on selection_report.pdf (22 pages, 164497 bytes).
+Output written on selection_report.pdf (22 pages, 164815 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream

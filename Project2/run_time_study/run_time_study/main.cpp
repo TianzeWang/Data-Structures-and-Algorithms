@@ -32,10 +32,13 @@ int main(int argc, const char * argv[])
 {
     int lines=1000000;
     srand(time(0));
-    int index=rand()%lines;
+    int t=10;
     long temp0=0;
     long temp1=0;
     long temp2=0;
+    long time0=0;
+    long time1=0;
+    long time2=0;
     clock_t start,finish;
     int arr[lines];
     for(int i=0;i<lines;++i)
@@ -47,10 +50,10 @@ int main(int argc, const char * argv[])
     {
         brr[j]=arr[j];
     }
-    int k=0;
-    while(k<10)
+    //////////////////////////////
+    while(t--)
     {
-        //////////////////////////////
+        int index=rand()%lines;
         start=clock();
         for(int a=0;a<lines;++a)
         {
@@ -82,14 +85,13 @@ int main(int argc, const char * argv[])
         long t2=finish-start;
         temp2+=t2;
         //////////////////////////////
-        k++;
+        time0+=temp0/1;
+        time1+=temp1/1;
+        time2+=temp2/1;
     }
-    long time0=temp0/10;
-    long time1=temp1/10;
-    long time2=temp2/10;
-    cout<<time0<<endl;
-    cout<<time1<<endl;
-    cout<<time2<<endl;
+    cout<<time0/10<<endl;
+    cout<<time1/10<<endl;
+    cout<<time2/10<<endl;
     return 0;
 }
 //////////////////////////////

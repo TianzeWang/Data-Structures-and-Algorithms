@@ -88,7 +88,7 @@ In this report, we will first implement all these three algorithms, and then tes
 
 The implementation of the algorithms is attached in the appendix.
 \section{Result Analysis}
-\indent After finishing implementing the above three algorithms, I wrote another program to test the run time of each algorithm. In this program, I set two clocks, noting the starting and finishing instance. To avoid uncertainty in the data, I wrote a while loop to run the program 10 times so that I could get the average value. There is one thing which requires extra carefulness. That is, we must ensure that every time inside the while loop, all the six sorting should meet the identical array. Otherwise, you will see that insertion sort will have a leading performance no matter how large the size is.
+\indent After finishing implementing the above three algorithms, I wrote another program to test the run time of each algorithm. In this program, I set two clocks, noting the starting and finishing instance. To avoid uncertainty in the data, I wrote a while loop to create 10 different i each time so that I could get the average value. There is one thing which requires extra carefulness. That is, we must ensure that every time inside the while loop, all the six selection should meet the identical array.
 
 The array size I chose is 10, 100, 1000, 5000, 10000, 50000, 100000 and 1000000.
 
@@ -99,21 +99,21 @@ The run time data for each algorithms is listed in table 2.
 Array size&Quick sort in place&Rselect&Dselect\\
 \hline
 \hline
-10&1&1&2\\
+10&7&3&9\\
 \hline
-100&17&4&16\\
+100&57&15&69\\
 \hline
-1000&154&24&152\\
+1000&983&191&1089\\
 \hline
-5000&923&158&749\\
+5000&4701&832&3921\\
 \hline
-10000&2053&355&1498\\
+10000&12018&1944&8860\\
 \hline
-50000&9853&1243&6046\\
+50000&54800&6622&32207\\
 \hline
-100000&19602&2004&11323\\
+100000&106287&12056&61333\\
 \hline
-1000000&206184&25104&100056\\
+1000000&1180554&113349&550122\\
 \hline
 \end{tabular}
 \caption{Run time of linear time selection}
@@ -401,10 +401,13 @@ int main(int argc, const char * argv[])
 {
     int lines=1000000;
     srand(time(0));
-    int index=rand()%lines;
+    int t=10;
     long temp0=0;
     long temp1=0;
     long temp2=0;
+    long time0=0;
+    long time1=0;
+    long time2=0;
     clock_t start,finish;
     int arr[lines];
     for(int i=0;i<lines;++i)
@@ -416,49 +419,47 @@ int main(int argc, const char * argv[])
     {
         brr[j]=arr[j];
     }
-    int k=0;
-    while(k<10)
+    //////////////////////////////
+    while(t--){
+    int index=rand()%lines;
+    start=clock();
+    for(int a=0;a<lines;++a)
     {
-        //////////////////////////////
-        start=clock();
-        for(int a=0;a<lines;++a)
-        {
-            arr[a]=brr[a];
-        }
-        quick_sort_in_place(arr,0,lines-1,lines);
-        int p=arr[index];
-        finish=clock();
-        long t0=finish-start;
-        temp0+=t0;
-        //////////////////////////////
-        start=clock();
-        for(int a=0;a<lines;++a)
-        {
-            arr[a]=brr[a];
-        }
-        Rselect(arr,lines,index);
-        finish=clock();
-        long t1=finish-start;
-        temp1+=t1;
-        //////////////////////////////
-        start=clock();
-        for(int a=0;a<lines;++a)
-        {
-            arr[a]=brr[a];
-        }
-        Dselect(arr,lines,index);
-        finish=clock();
-        long t2=finish-start;
-        temp2+=t2;
-        //////////////////////////////
-        k++;
+        arr[a]=brr[a];
     }
-    long time0=temp0/10;
-    long time1=temp1/10;
-    long time2=temp2/10;
-    cout<<time0<<endl;
-    cout<<time1<<endl;
-    cout<<time2<<endl;
+    quick_sort_in_place(arr,0,lines-1,lines);
+    int p=arr[index];
+    finish=clock();
+    long t0=finish-start;
+    temp0+=t0;
+    //////////////////////////////
+    start=clock();
+    for(int a=0;a<lines;++a)
+    {
+        arr[a]=brr[a];
+    }
+    Rselect(arr,lines,index);
+    finish=clock();
+    long t1=finish-start;
+    temp1+=t1;
+    //////////////////////////////
+    start=clock();
+    for(int a=0;a<lines;++a)
+    {
+        arr[a]=brr[a];
+    }
+    Dselect(arr,lines,index);
+    finish=clock();
+    long t2=finish-start;
+    temp2+=t2;
+    //////////////////////////////
+    time0+=temp0/1;
+    time1+=temp1/1;
+    time2+=temp2/1;
+    }
+    cout<<time0/10<<endl;
+    cout<<time1/10<<endl;
+    cout<<time2/10<<endl;
     return 0;
 }
 //////////////////////////////
@@ -614,13 +615,14 @@ void quick_sort_in_place(int *arr,int left,int right,int size)
     quick_sort_in_place(arr,left,pivotat-1,pivotat-left);
     quick_sort_in_place(arr+pivotat+1,0,right-pivotat-1,right-pivotat);
 }
+
 \end{lstlisting}
 \subsection{Visualization}
 \begin{lstlisting}[language=Matlab]
 clear all;clc;
-t0=[1 17 154 923 2053 9853 19602 206184];
-t1=[1 4 24 158 355 1243 2004 25104];
-t2=[2 16 152 749 1498 6046 11323 100056];
+t0=[7 57 983 4701 12018 54800 106287 1180554];
+t1=[3 15 191 832 1944 6622 12056 113349];
+t2=[9 69 1089 3921 8860 32207 61333 550122];
 size=[10 100 1000 5000 10000 50000 100000 1000000];
 plot(size,t0,'o-',size,t1,'v-',size,t2,'*-');
 xlabel('array size');

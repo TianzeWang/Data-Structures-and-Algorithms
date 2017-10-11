@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Appendix}{5}
 \contentsline {subsection}{\numberline {3.1}Linear time selection algorithms}{5}
 \contentsline {subsection}{\numberline {3.2}Run-time calculation}{13}
-\contentsline {subsection}{\numberline {3.3}Visualization}{21}
+\contentsline {subsection}{\numberline {3.3}Visualization}{22}
