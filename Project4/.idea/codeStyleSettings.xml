@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectCodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value>
+        <Objective-C>
+          <option name="KEEP_DIRECTIVE_AT_FIRST_COLUMN" value="false" />
+          <option name="SPACE_WITHIN_TEMPLATE_DOUBLE_GT" value="false" />
+          <option name="SPACE_BEFORE_NAMESPACE_LBRACE" value="false" />
+          <option name="SPACE_AFTER_STRUCTURES_RBRACE" value="false" />
+          <option name="SPACE_BEFORE_SUPERCLASS_COLON" value="false" />
+          <option name="SPACE_AFTER_SUPERCLASS_COLON" value="false" />
+          <option name="SPACE_BEFORE_INIT_LIST_COLON" value="false" />
+          <option name="SPACE_AFTER_INIT_LIST_COLON" value="false" />
+          <option name="SPACE_BEFORE_INIT_LIST" value="true" />
+        </Objective-C>
+        <Objective-C-extensions>
+          <file>
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Typedef" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Enum" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Constant" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Global" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Struct" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="FunctionPredecl" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Function" />
+          </file>
+          <class>
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
+            <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
+          </class>
+          <extensions>
+            <pair source="cpp" header="h" />
+            <pair source="c" header="h" />
+          </extensions>
+        </Objective-C-extensions>
+        <codeStyleSettings language="ObjectiveC">
+          <option name="KEEP_LINE_BREAKS" value="false" />
+          <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+          <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
+          <option name="ELSE_ON_NEW_LINE" value="true" />
+          <option name="SPACE_AROUND_ASSIGNMENT_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_LOGICAL_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_EQUALITY_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_RELATIONAL_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_BITWISE_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_ADDITIVE_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_MULTIPLICATIVE_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_SHIFT_OPERATORS" value="false" />
+          <option name="SPACE_AROUND_LAMBDA_ARROW" value="false" />
+          <option name="SPACE_WITHIN_BRACES" value="false" />
+          <option name="SPACE_AFTER_TYPE_CAST" value="false" />
+          <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
+          <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
+          <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
+          <option name="SPACE_BEFORE_CATCH_PARENTHESES" value="false" />
+          <option name="SPACE_BEFORE_SWITCH_PARENTHESES" value="false" />
+          <option name="SPACE_BEFORE_ELSE_KEYWORD" value="false" />
+          <option name="SPACE_BEFORE_WHILE_KEYWORD" value="false" />
+          <option name="SPACE_BEFORE_CATCH_KEYWORD" value="false" />
+          <option name="SPACE_BEFORE_QUEST" value="false" />
+          <option name="SPACE_AFTER_QUEST" value="false" />
+          <option name="SPACE_BEFORE_COLON" value="false" />
+          <option name="SPACE_AFTER_COLON" value="false" />
+          <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="false" />
+          <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="false" />
+        </codeStyleSettings>
+      </value>
+    </option>
+    <option name="USE_PER_PROJECT_SETTINGS" value="true" />
+  </component>
+</project>

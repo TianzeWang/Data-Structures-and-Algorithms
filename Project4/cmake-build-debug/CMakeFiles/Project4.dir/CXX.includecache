@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jixingyou/Desktop/VE281/Project4/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+getopt.h
+-
+map
+-
+set
+-
+

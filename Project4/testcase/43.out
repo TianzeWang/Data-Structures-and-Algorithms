@@ -1,0 +1,12 @@
+BUYER_1 purchased 5 shares of GOOG from SELLER_1 for $200/share
+BUYER_2 purchased 5 shares of GOOG from SELLER_1 for $125/share
+Median match price of GOOG at time 0 is $162
+Midpoint of GOOG at time 0 is undefined
+---End of Day---
+Commission Earnings: $32
+Total Amount of Money Transferred: $1625
+Number of Completed Trades: 2
+Number of Shares Traded: 10
+BUYER_1 bought 5 and sold 0 for a net transfer of $-1000
+BUYER_2 bought 5 and sold 0 for a net transfer of $-625
+SELLER_1 bought 0 and sold 10 for a net transfer of $1625

@@ -1,0 +1,18 @@
+Midpoint of GOOG at time 1 is undefined
+Midpoint of GOOG at time 2 is undefined
+BUYER_1 purchased 4 shares of GOOG from SELLER_2 for $100/share
+Median match price of GOOG at time 3 is $100
+Midpoint of GOOG at time 3 is undefined
+BUYER_2 purchased 10 shares of GOOG from SELLER_2 for $100/share
+Median match price of GOOG at time 5 is $100
+Midpoint of GOOG at time 5 is undefined
+---End of Day---
+Commission Earnings: $28
+Total Amount of Money Transferred: $1400
+Number of Completed Trades: 2
+Number of Shares Traded: 14
+BUYER_1 bought 4 and sold 0 for a net transfer of $-400
+BUYER_2 bought 10 and sold 0 for a net transfer of $-1000
+SELLER_1 bought 0 and sold 0 for a net transfer of $0
+SELLER_2 bought 0 and sold 14 for a net transfer of $1400
+SELLER_3 bought 0 and sold 0 for a net transfer of $0

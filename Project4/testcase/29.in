@@ -1,0 +1,10 @@
+0	A	SELL	GC		$5		#5 		-1
+0	B	SELL	CODE	$1 		#10 	-1
+0	C	SELL	GEASS	$10 	#20		-1
+1	A	SELL	GEASS	$5		#40		-1
+1	B 	BUY		GC		$20		#20		-1
+1	C	SELL	GEASS	$5		#40		-1
+2	A	SELL	CODE	$4		#10 	-1
+3	B 	SELL	GEASS	$4		#20		-1
+4	C	SELL	CODE	$2 		#40		-1
+5	A	BUY		GC		$100	#10 	-1

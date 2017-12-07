@@ -1,0 +1,47 @@
+Midpoint of GE at time 0 is undefined
+Midpoint of TG at time 0 is $110
+WOW purchased 20 shares of GE from PdExp for $200/share
+Median match price of GE at time 1 is $200
+Midpoint of GE at time 1 is undefined
+Midpoint of NFLX at time 1 is undefined
+Midpoint of TG at time 1 is undefined
+Median match price of GE at time 3 is $200
+Midpoint of GE at time 3 is undefined
+Midpoint of GO at time 3 is undefined
+Midpoint of NFLX at time 3 is undefined
+Midpoint of TG at time 3 is undefined
+CLCT purchased 12 shares of GO from WOW for $1/share
+WOW purchased 18 shares of GO from WOW for $1/share
+WOW purchased 12 shares of GO from CMCF for $5/share
+Median match price of GE at time 4 is $200
+Median match price of GO at time 4 is $1
+Midpoint of GE at time 4 is undefined
+Midpoint of GO at time 4 is undefined
+Midpoint of NFLX at time 4 is undefined
+Midpoint of TG at time 4 is undefined
+Median match price of GE at time 5 is $200
+Median match price of GO at time 5 is $1
+Midpoint of GE at time 5 is undefined
+Midpoint of GO at time 5 is undefined
+Midpoint of NFLX at time 5 is undefined
+Midpoint of TG at time 5 is undefined
+CLCT purchased 10 shares of TG from PdExp for $130/share
+CMCF purchased 50 shares of TG from PdExp for $100/share
+WOW purchased 10 shares of TG from PdExp for $80/share
+CLCT purchased 10 shares of GE from WOW for $50/share
+Median match price of GE at time 6 is $125
+Median match price of GO at time 6 is $1
+Median match price of TG at time 6 is $100
+Midpoint of GE at time 6 is undefined
+Midpoint of GO at time 6 is undefined
+Midpoint of NFLX at time 6 is undefined
+Midpoint of TG at time 6 is undefined
+---End of Day---
+Commission Earnings: $232
+Total Amount of Money Transferred: $11690
+Number of Completed Trades: 8
+Number of Shares Traded: 142
+CLCT bought 32 and sold 0 for a net transfer of $-1812
+CMCF bought 50 and sold 12 for a net transfer of $-4940
+PdExp bought 0 and sold 90 for a net transfer of $11100
+WOW bought 60 and sold 40 for a net transfer of $-4348
