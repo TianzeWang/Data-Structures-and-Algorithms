@@ -2,7 +2,7 @@
 
 ***This is a repository for `Ve281` Data Structures and Algorithms.***
 ___
-## Category
+## Catalog
 
 * [Warning](#warning)
 * [Project 1](#project1)
