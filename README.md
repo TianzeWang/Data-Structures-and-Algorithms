@@ -50,6 +50,7 @@ You are required to construct two selection algorithms.
 [Deterministic selection]: https://en.wikipedia.org/wiki/Selection_algorithm
 
 You can find the codes in [p2-implementation].
+
 [p2-implementation]: https://github.com/Tom-Pomelo/VE281/blob/master/Project2/project2/project2/main.cpp
 
 ## <a name = "project3" />Project 3:
