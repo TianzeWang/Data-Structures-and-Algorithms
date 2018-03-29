@@ -1,8 +1,20 @@
 # `VE281`
 
 ***This is a repository for `Ve281` Data Structures and Algorithms.***
+___
+## Category
 
-## Project 1: 
+* [Warning](#warning)
+* [Project 1](#project1)
+* [Project 2](#project2)
+* [Project 3](#project3)
+* [Project 4](#project4)
+* [Project 5](#project5)
+
+___
+
+## <a name = "project1" />Project 1:
+
 The project description is in [p1-description].
 
 You are required to construct five sorting algorithms.
@@ -24,7 +36,7 @@ You can find the codes in [p1-implementation].
 [quick sort in place]: https://en.wikipedia.org/wiki/Quicksort
 [quick sort extra]: https://en.wikipedia.org/wiki/Quicksort
 [p1-implementation]: https://github.com/Tom-Pomelo/VE281/blob/master/Project1/main.cpp
-## Project 2:
+## <a name = "project2" />Project 2:
 The project description is in [p2-description].
 
 [p2-description]: https://github.com/Tom-Pomelo/VE281/blob/master/Project2/Programming-Assignment-Two-Description.pdf "project2"
@@ -40,7 +52,7 @@ You are required to construct two selection algorithms.
 You can find the codes in [p2-implementation].
 [p2-implementation]: https://github.com/Tom-Pomelo/VE281/blob/master/Project2/project2/project2/main.cpp
 
-## Project 3:
+## <a name = "project3" />Project 3:
 
 The project description is in [p3-description].
 
@@ -60,7 +72,7 @@ You can find the codes in [p3-implementation].
 
 [p3-implementation]: https://github.com/Tom-Pomelo/VE281/tree/master/Project3/project3/project3
 
-## Project 4:
+## <a name = "project4" />Project 4:
 The project description is in [p4-description].
 
 You are required to construct some efficient and effective data structures to model a equity-transaction system.
@@ -85,7 +97,7 @@ You can find the codes in [p4-implementation].
 
 [p4-implementation]: https://github.com/Tom-Pomelo/VE281/blob/master/Project4/main.cpp
 
-## Project 5:
+## <a name = "project5" />Project 5:
 
 The project description is in [p5-description].
 
@@ -111,6 +123,7 @@ You can find the codes in [p5-implementation].
 
 [p5-implementation]: https://github.com/Tom-Pomelo/VE281/blob/master/Project5/main.cpp
 
-## Warning:
+## <a name = "warning" />Warning:
 For students who are currently taking `Ve281`, please abide by the ***Honor Code*** in case of unnecessary troubles. 
+
 ### CopyRight All Rights Reserved
